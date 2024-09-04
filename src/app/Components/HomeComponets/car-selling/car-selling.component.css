@@ -1,0 +1,137 @@
+button {
+    min-height: 46px;
+    border-radius: 8px;
+    border: 0px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent; 
+    color: #FFF; 
+}
+.fullPage {
+    font-family: 'Tajawal';
+}
+.container_tab_Car_selling {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: #2F2F2F;
+    padding: 6px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.container_tab_Car_selling button {
+    min-height: 30px;
+    margin-right: 5px;
+    background-color: transparent;
+    color: #FFF;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+
+.container_tab_Car_selling button.active {
+    background-color: #ffd600;
+    color: #2F2F2F; 
+    border: 1px solid #2F2F2F; 
+}
+
+.itme_Car_selling {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.15);
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid #ececec;
+    background-color: #FFF;
+    transition: 0.1s all ease-in-out;
+    width: 100%;
+}
+
+.itme_Car_selling .image_Car_selling img {
+    width: auto;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.itme_Car_selling .content_Car_selling h3 {
+    margin: 0;
+}
+
+.itme_Car_selling .content_Car_selling .openDeta {
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.image_Car_selling {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.image_Car_selling img {
+    width: auto;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.titlecarSelling {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.titlecarSelling h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #818282;
+    font-weight: bold;
+}
+
+.titlecarSelling span {
+    margin: 0;
+    font-size: 18px;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.scrollable-container {
+    max-height: 400px; 
+    overflow-y: auto; 
+    overflow-x: hidden;
+    padding-right: 10px; 
+    scrollbar-width: thin; 
+    scrollbar-color: #FFD600 #2F2F2F; 
+}
+
+.scrollable-container::-webkit-scrollbar {
+    width: 100%; 
+    height: 100px; 
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+    background-color: #2F2F2F; 
+    border-radius: 10px; 
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+    background-color: #FFD600;
+    border-radius: 10px; 
+}
+
+.scrollable-container::-webkit-scrollbar-thumb:hover {
+    background-color: #FFC107; 
+}
+
+.scrollable-container .itme_Car_selling:last-child {
+    padding-bottom: 20px; 
+}

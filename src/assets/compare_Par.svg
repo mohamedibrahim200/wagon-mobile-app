@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73" height="64.6" viewBox="0 0 73 64.6">
+  <defs>
+    <filter id="Path_878" x="0" y="8.4" width="60.4" height="56.2" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_879" x="12.6" y="0" width="60.4" height="56.2" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="compare_Par" transform="translate(1154.5 -4705.962)">
+    <rect id="Rectangle_1657" data-name="Rectangle 1657" width="28" height="28" transform="translate(-1132 4721)" fill="none"/>
+    <g id="compare" transform="translate(-1132 4725.462)">
+      <g id="Group_212" data-name="Group 212" transform="translate(0 0)">
+        <g id="Group_211" data-name="Group 211">
+          <g transform="matrix(1, 0, 0, 1, -22.5, -19.5)" filter="url(#Path_878)">
+            <path id="Path_878-2" data-name="Path 878" d="M9.814,234.6H0v2.8H9.814v4.2L15.4,236l-5.586-5.6Z" transform="translate(22.5 -202.5)" fill="#ffd600"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -22.5, -19.5)" filter="url(#Path_879)">
+            <path id="Path_879-2" data-name="Path 879" d="M235.986,81V76.8L230.4,82.4l5.586,5.6V83.8H245.8V81Z" transform="translate(-195.3 -57.3)" fill="#ffd600"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

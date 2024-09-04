@@ -1,0 +1,34 @@
+.subTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.subTitle h2 {
+    margin: 0;
+    font-size: 20px;
+    color: var(--colorFive_CL);
+    font-weight: bold;
+}
+.fullPage {
+   
+    font-family: 'Tajawal';
+}
+
+.map {
+    padding: 15px 0;
+}
+.map .maplocation {
+    width: 100%;
+    height: 200px;
+}
+.map .maplocation iframe {
+    border-radius: 10px;
+}
+.maplocation {
+    width: 100%;
+    height: 200px;
+}
+.maplocation iframe {
+    border-radius: 10px;
+}

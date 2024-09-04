@@ -1,0 +1,138 @@
+.bodyPage {
+    background-color: #FFF;
+    margin-top: 10px;
+    border-radius: 20px 20px 0 0;
+    padding: 0 15px;
+    position: relative;
+    padding-bottom: 75px;
+}
+
+
+.fullPage {
+    font-family: 'Tajawal';
+}
+.scrollableItems {
+    max-height: 600px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ItemsType {
+    box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid #ececec;
+    background-color: #FFF;
+    transition: 0.1s all ease-in-out;
+    height: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.content_Type {
+    width: 70%;
+}
+
+.head_Type h3 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.head_Type p {
+    margin: 0;
+    font-size: 16px;
+    color: #8d8d8d;
+    font-weight: bold;
+}
+
+.data_Type_item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.typeCont {
+    display: flex;
+    align-items: center;
+    width: 48%;
+}
+
+.iconType img {
+    width: auto;
+    height: 35px;
+}
+
+.icondata {
+    margin-left: 5px;
+}
+
+.icondata p:first-of-type {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.icondata p:last-of-type {
+    margin: 0;
+    font-size: 17px;
+    color: #787878;
+}
+
+.image_Type {
+    width: 27%;
+}
+
+.image_Type img {
+    height: 150px;
+    display: flex;
+}
+
+.footer_Type {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btnType {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47%;
+    padding: 5px 10px;
+    background-color: #2F2F2F;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.btnType img {
+    width: auto;
+    height: 20px;
+    filter: brightness(58) invert(50%);
+    margin-right: 10px;
+}
+
+.button_group {
+    padding-top: 10px;
+}
+
+.btnCompare {
+    background-color: #FFD600;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    min-height: 46px;
+    border-radius: 8px;
+    border: 0;
+    width: 100%;
+    cursor: pointer;
+}

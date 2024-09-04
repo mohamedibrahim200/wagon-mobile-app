@@ -1,0 +1,14 @@
+{
+    "items": [
+      {"brand": "Volvo","openfrom": 2015,"closeto": 2020,"image": "assets/productCar.png" , "isBuyActive": false},
+      {"brand": "Volvo","openfrom": 2015,"closeto": 2020,"image": "assets/productCar.png" , "isBuyActive": false},
+      {"brand": "Volvo","openfrom": 2015,"closeto": 2020,"image": "assets/productCar.png" , "isBuyActive": false},
+      {"brand": "Volvo","openfrom": 2015,"closeto": 2020,"image": "assets/productCar.png" , "isBuyActive": false},
+      {"brand": "Volvo","openfrom": 2015,"closeto": 2020,"image": "assets/productCar.png" , "isBuyActive": false},
+      {"brand": "Volvo","openfrom": 2015,"closeto": 2020,"image": "assets/productCar.png" , "isBuyActive": false},
+      {"brand": "Volvo","openfrom": 2015,"closeto": 2020,"image": "assets/productCar.png" , "isBuyActive": false},
+      {"brand": "Volvo","openfrom": 2015,"closeto": 2020,"image": "assets/productCar.png" , "isBuyActive": false},
+      {"brand": "Volvo","openfrom": 2015,"closeto": 2020,"image": "assets/productCar.png" , "isBuyActive": false}
+    ]
+  }
+  

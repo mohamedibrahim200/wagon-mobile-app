@@ -1,0 +1,123 @@
+<div class="filterBtn" (click)="openPopups()">
+    <div class="img_par">
+        <img class="filter" src="assets/filter.svg" />
+        <p>Search filters</p>
+    </div>
+    <img class="filter" src="assets/arrowFillter.svg" />
+</div>
+<app-footer [class.hide-content]="isPopupOpens"></app-footer>
+<div *ngIf="isPopupOpens" class="popup-container">
+    <div class="popup-content">
+        <div class="fillter_popup">
+            <img class="imgFillter" src="assets/filter.svg" alt="">
+            <div class="headerFillter">
+                <img class="closeFiltter_popup" src="assets/arrowSell.svg" alt="" (click)="closePopups()">
+                <h2>Filter</h2>
+                <p>Clear all</p>
+            </div>
+            <div class="bodyFillter">
+                <hr>
+                <div class="editFillter">
+                    <p>Country</p>
+                    <div class="editFillter">
+                        <div class="editFillter_item" (click)="openCountryPopup()">
+                            <span>{{ selectedCountry }}</span>
+                            <img src="assets/arrowSell.svg" alt="">
+                        </div>
+                    </div>
+                    <div *ngIf="isCountryPopupOpen" class="popup-container">
+                        <div class="popup-content">
+                            <h2>Countries</h2>
+                            <ul>
+                                <li *ngFor="let country of countries" (click)="selectCountry(country)">
+                                    {{ country }}
+                                </li>
+                            </ul>
+                            <button (click)="closeCountryPopup()">Close</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="editFillter">
+                    <p>City</p>
+                    <div class="editFillter_item" (click)="openCityPopup()">
+                        <span>{{ selectedProvince }}</span>
+                        <img src="assets/arrowSell.svg" alt="">
+                    </div>
+                    <div *ngIf="isCityPopupOpen" class="popup-container">
+                        <div class="popup-content">
+                            <h2>Cities</h2>
+                            <ul>
+                                <li *ngFor="let city of cities" (click)="selectedProvince = city">
+                                    {{ city }}
+                                </li>
+                            </ul>
+                            <button (click)="closeCityPopup()">Close</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr>
+                <div class="editFillter">
+                    <p>Make</p>
+                    <div class="editFillter_item">
+                        <span>BMW</span>
+                        <img src="assets/arrowSell.svg" alt="">
+                    </div>
+                </div>
+                
+                <div class="editFillter">
+                    <p>Model</p>
+                    <div class="editFillter_item">
+                        <span>X3</span>
+                        <img src="assets/arrowSell.svg" alt="">
+                    </div>
+                </div>
+                
+                <div class="editFillter">
+                    <p>Body Type</p>
+                    <div class="editFillter_item">
+                        <span>SUV</span>
+                        <img src="assets/arrowSell.svg" alt="">
+                    </div>
+                </div>
+                
+                <div class="editFillter">
+                    <p>Mileage</p>
+                    <div class="editFillter_item">
+                        <span>10,000 km</span>
+                        <img src="assets/arrowSell.svg" alt="">
+                    </div>
+                </div>
+                
+                <div class="editFillter">
+                    <p>Year</p>
+                    <div class="editFillter_item">
+                        <span>2015</span>
+                        <img src="assets/arrowSell.svg" alt="">
+                    </div>
+                </div>
+                
+                <div class="editFillter">
+                    <p>Price Range</p>
+                    <div class="editFillter_item">
+                        <span>$15,000</span>
+                        <span>-</span>
+                        <span>$25,000</span>
+                    </div>
+                </div>
+                
+                <div class="range_container">
+                    <div class="sliders_control">
+                        <input id="fromSlider" type="range" value="10" min="0" max="100" />
+                        <input id="toSlider" type="range" value="40" min="0" max="100" />
+                    </div>
+                </div>
+
+                <div class="btnFillter">
+                    <button (click)="toggleToRuseltSearchFilter()">Show results (25)</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

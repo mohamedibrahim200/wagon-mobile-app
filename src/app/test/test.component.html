@@ -1,0 +1,37 @@
+<div class="filterBtn" (click)="openPopup()">
+  <div class="img_par">
+    <img class="filter" src="assets/filter.svg" />
+    <p>Search filters</p>
+  </div>
+  <img class="filter" src="assets/arrowFillter.svg" />
+</div>
+
+
+<div *ngIf="PopupOpen" class="popup-container">
+  <div class="popup-content">
+    <h2>Popup</h2>
+    <div class="fillter_popup">
+      <img class="imgFillter" src="assets/filter.svg" alt="">
+      <div class="headerFillter">
+        <img class="closeFiltter_popup" src="assets/arrowSell.svg" alt="" (click)="closePop()">
+        <h2>Filter</h2>
+        <p>Clear all</p>
+      </div>
+      <div class="editFillter_item" (click)="openPopupcountrys()">
+        <span>{{ selectedCountry }}</span>
+        <img src="assets/arrowSell.svg" alt="">
+      </div>
+      <div *ngIf="isPopupOpencountrys" class="country-popup">
+        <div class="popup-content">
+          <h2>Countries</h2>
+          <ul>
+            <li *ngFor="let country of countries" (click)="selectCountry(country)">
+              {{ country }}
+            </li>
+          </ul>
+          <button (click)="closePopupcountrys()">إغلاق</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

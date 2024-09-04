@@ -1,0 +1,16 @@
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .fullPage {
+   
+    font-family: 'Tajawal';
+}

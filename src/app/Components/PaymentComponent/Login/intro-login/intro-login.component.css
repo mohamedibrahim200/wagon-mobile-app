@@ -1,0 +1,155 @@
+:root {
+    --colorZero_CL: ##FFF;
+    --colorOne_CL: #FFD600;
+    --colorTwo_CL: #2F2F2F;
+    --colorThree_CL: #F5F6FB;
+    --colorFive_CL: #818282;
+    --colorSex_CL: #f5f6fb;
+    --colorSeven_cl: #e6e6e6;
+    --colorEight_cl: #B6B6B6;
+    --colorNine_CL: #414141;
+    --colorTen_CL: #f2f2f2;
+    --colorEleven_CL: #F5F5F6;
+    --colorTwelve_BG: #5fdba7;
+    --colorThirteen_BG: #FF4040;
+    --colorFourteen_BG: #4BB543;
+}
+:root {
+    --backgroundZero_BG:#FFF;
+    --backgroundOne_BG: #FFD600;
+    --backgroundTwo_BG: #2F2F2F;
+    --backgroundThree_BG: #F5F6FB;
+    --backgroundFive_BG: #818282;
+    --backgroundSix_BG: #f5f6fb;
+    --backgroundSeven_BG: #e6e6e6;
+    --backgroundEight_BG: #B6B6B6;
+    --backgroundNine_BG: #414141;
+    --backgroundTen_BG: #f2f2f2;
+    --backgroundEleven_BG: #F5F5F6;
+    --backgroundTwelve_BG: #5fdba7;
+    --backgroundThirteen_BG: #FF4040;
+    --backgroundFourteen_BG: #4BB543;
+}
+.button_gruop_intro {
+    margin: auto;
+}
+.button_gruop_intro .signIn {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.button_gruop_intro .signUpBtn {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #2F2F2F;
+    border: 3px solid #2F2F2F;
+    background: transparent;
+    font-weight: bold;
+}
+.fullPage {
+    width: 100%;
+    height: 100%;
+}
+.fullPage {
+    
+    font-family: 'Tajawal';
+}
+
+.logointro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4pc;
+}
+.logointro img {
+    width: auto;
+    height: 200px;
+}
+.changeLang {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.changeLang .Ch_lan {
+    margin: 0 10px;
+    text-decoration: unset;
+    /* color:  #2F2F2F; */
+    font-size: 20px;
+}
+.changeLang .Ch_lan.active {
+    color: #FFD600;
+}
+.signUpBtn {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #2F2F2F;
+    border: 3px solid #2F2F2F;
+    background: transparent;
+    font-weight: bold;
+}
+.Ch_lan {
+    margin: 0 10px;
+    text-decoration: unset;
+    color:  #2F2F2F;
+    font-size: 20px;
+}
+.Ch_lan.active {
+    color: #FFD600;
+}
+.textLogin {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.intro_widget {
+    padding: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.intro_widget .logointro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4pc;
+}
+.intro_widget .logointro img {
+    width: auto;
+    height: 200px;
+}
+.active {
+    color: #FFD600;
+}
+.active img {
+    filter: none;
+}
+.active p {
+    color: #FFD600;
+}
+.active {
+    /* background-color:  #FFD600;
+    color:  #2F2F2F; */
+}
+.signIn {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.vh {
+    height: 100vh !important;
+}
+.back_primary {
+    background-color: #FFD600 !important;
+}
+button {
+    min-height: 46px;
+    border-radius: 8px;
+    border: 0px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}

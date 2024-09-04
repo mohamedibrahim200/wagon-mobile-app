@@ -1,0 +1,384 @@
+
+
+.collapse_account .collapse-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #FFF9DB;
+    margin-bottom: 10px;
+    color: #2F2F2F;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.bodyPage {
+    background-color:  #FFF;
+    margin-top: 10px;
+    border-radius: 20px 20px 0 0;
+    padding: 0 15px;
+    z-index: 1;
+    /* height: 100%; */
+    display: block;
+    position: relative;
+    padding-bottom: 75px;
+}
+.input_group {
+    margin-bottom: 15px;
+    margin-top: 12px;
+    position: relative;
+}
+input[type="text"], input[type="number"], input[type="date"], input[type="password"], input[type="email"], input[type="tel"], input[type="time"], textarea, input, select {
+    background-color: #F5F5F6;
+    color:#2F2F2F;
+}
+input[type="text"], input[type="number"], input[type="date"], input[type="password"], input[type="email"], input[type="tel"], input[type="time"], textarea, input, select {
+    display: block;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    transition: all 0.1s ease-in-out 0s;
+    appearance: none;
+    border-radius: 8px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-family: 'Tajawal';
+    border: none;
+}
+.collapse_account .collapse-trigger.activeCollapse {
+    background-color: #FFD600;
+    color: #2F2F2F;
+    transition: 0.2s ease-in-out;
+}
+input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
+    overflow-clip-margin: 0px !important;
+    overflow: clip !important;
+}
+input[type="text"]:focus, input[type="number"]:focus, input[type="date"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="time"]:focus, 
+textarea:focus, 
+select:focus {
+    border: 2px solid #FFD600; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(255, 214, 0, 0.5); 
+}
+
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+.collapse_account .collapse-trigger img {
+    width: auto;
+    transform: rotate(90deg);
+    height: 16px;
+    filter: brightness(0) invert(0);
+    transition: 0.3s ease-in-out all;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.input_group label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.input_group.calender_in img {
+    position: absolute;
+    bottom: 7px;
+    width: auto;
+    height: 30px;
+    right: 6px;
+    pointer-events: none;
+    cursor: pointer;
+}
+.input_group.calender_in::before {
+    position: absolute;
+    content: '';
+    width: 23px;
+    height: 23px;
+    bottom: 11px;
+    right: 10px;
+    background-color:  #F5F5F6;
+    z-index: 0;
+    pointer-events: none;
+}
+.input_group {
+    width: auto;
+}
+
+.input_group .eyesPassword {
+    position: absolute;
+    width: auto;
+    height: 20px;
+    right: 11px;
+    bottom: 17px;
+    cursor: pointer;
+}
+.input_group input {
+    background-color:  #FFF;
+    box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 12%);
+    height: 50px;
+    border-radius: 15px;
+    width: 90%;
+}
+.input_group label {
+    color:  #2F2F2F;
+}
+.collapse-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #FFF9DB;
+    margin-bottom: 10px;
+    color:  #2F2F2F;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.collapse-trigger.years~.collapse-container .containerType_Brand .typeCars_Brand button p {
+    margin: 0;
+}
+.collapse-trigger h3 {
+    margin: 0;
+}
+.collapse-trigger img {
+    width: auto;
+    transform: rotate(90deg);
+    height: 16px;
+    filter: brightness(0) invert(0);
+    transition: 0.3s ease-in-out all;
+}
+.collapse-trigger.activeCollapse {
+    background-color: #FFD600;
+    color:  #2F2F2F;
+    transition: 0.2s ease-in-out;
+}
+.collapse-trigger.activeCollapse img {
+    transition: 0.2s ease-in-out;
+}
+.activeCollapse {
+    background-color: #FFD600;
+    color:  #2F2F2F;
+    transition: 0.2s ease-in-out;
+}
+.activeCollapse img {
+    transition: 0.2s ease-in-out;
+}
+.collapse-container .containerType_Brand .typeCars_Brand button p {
+    margin: 0;
+}
+.collapse-container {
+    margin: 10px 0;
+}
+.input_group_radio label {
+    display: block;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.input_group_radio .container_input_group_radio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.collapse_account .collapse-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #FFF9DB;
+    margin-bottom: 10px;
+    color:  #2F2F2F;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.collapse_account .collapse-trigger.years~.collapse-container .containerType_Brand .typeCars_Brand button p {
+    margin: 0;
+}
+.collapse_account .collapse-trigger h3 {
+    margin: 0;
+}
+.collapse_account .collapse-trigger img {
+    width: auto;
+    transform: rotate(90deg);
+    height: 16px;
+    filter: brightness(0) invert(0);
+    transition: 0.3s ease-in-out all;
+}
+.collapse_account .collapse-trigger.activeCollapse {
+    background-color: #FFD600;
+    color:  #2F2F2F;
+    transition: 0.2s ease-in-out;
+}
+.collapse_account .collapse-trigger.activeCollapse img {
+    transition: 0.2s ease-in-out;
+}
+.collapse_account .collapse-container {
+    margin: 10px 0;
+}
+.container_input_group_radio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.calender_in img {
+    position: absolute;
+    bottom: 7px;
+    width: auto;
+    height: 30px;
+    right: 6px;
+    pointer-events: none;
+    cursor: pointer;
+}
+.calender_in::before {
+    position: absolute;
+    content: '';
+    width: 23px;
+    height: 23px;
+    bottom: 11px;
+    right: 10px;
+    background-color:  #F5F5F6;
+    z-index: 0;
+    pointer-events: none;
+}
+.inputRadio {
+    flex: 0 0 47%;
+    max-width: 47%;
+    z-index: 0;
+    position: relative;
+    color:  #2F2F2F;
+    font-size: 16px;
+    line-height: 1.5;
+
+    height: 45px;
+    background-color:  #F5F5F6;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.inputRadio>input {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 2px;
+    display: block;
+    margin: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    opacity: 0;
+    transform: scale(1);
+    pointer-events: none;
+    transition: opacity 0.3s, transform 0.2s;
+}
+.inputRadio>span {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding-left: 30px;
+}
+.inputRadio>span::before {
+    content: "";
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 2px 10px 2px 0;
+    border: solid 2px;
+    border-color: #bebebe;
+    position: absolute;
+    left: 14px;
+    background-color: #f5f5f6;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    transition: border-color 0.2s;
+}
+.inputRadio>input:checked+span::before {
+    border-color: #FFD600;
+}
+.inputRadio>span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #FFD600;
+    transform: translate(5px, 5px) scale(0);
+    transition: transform 0.2s;
+}
+.inputRadio>input:checked+span::after {
+    transform: translate(5px, 5px) scale(1);
+}
+.rotated {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease-in-out;
+}
+.rotateds {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease-in-out;
+}
+.deleteAccount .deleteAccount_btn {
+    margin-top: 10px;
+}
+.deleteAccount .deleteAccount_btn {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.deleteAccount {
+    flex-direction: column;
+    align-items: end;
+}
+.deleteAccount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.button_group {
+    padding-top: 10px;
+}
+.pt-4, .py-4 {
+    padding-top: 1.5rem !important;
+}
+
+.button_group .btnCompare {
+    background-color: #ffd600;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+button {
+    min-height: 46px;
+    border-radius: 8px;
+    border: 0px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* @media (max-width: 768px) {
+    .input_group input {
+        width: 100%;
+    }
+
+    .inputRadio {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+} */

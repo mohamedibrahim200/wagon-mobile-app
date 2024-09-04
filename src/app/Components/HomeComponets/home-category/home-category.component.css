@@ -1,0 +1,50 @@
+.item_tapsBox {
+    width: 40%;
+    background-color: #2F2F2F;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.item_tapsBox img {
+    width: auto;
+    height: 90px;
+}
+.item_tapsBox p {
+    margin: 0;
+    font-size: 20px;
+    text-align: right;
+    color: #FFF;
+    font-weight: bold;
+}
+.container_DataBox {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bodyPage {
+    background-color: #FFF;
+    margin-top: 10px;
+    border-radius: 20px 20px 0 0;
+    padding: 0 15px;
+    z-index: 1;
+    height: 100%;
+    display: block;
+    position: relative;
+    padding-bottom: 75px;
+}
+.bodyPage.swiperdetails {
+    padding-right: 0;
+    padding-left: 0;
+}
+.noFooter {
+    padding-bottom: 0;
+    padding: 10px 15px;
+    height: calc(100vh - 90px);
+}
+.fullPage {
+    font-family: 'Tajawal';
+ } 

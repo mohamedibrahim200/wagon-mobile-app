@@ -1,0 +1,22 @@
+<app-dealer-header></app-dealer-header>
+<div class="fullPage ">
+    <div class="bodyPage">
+                <app-list-to-maps></app-list-to-maps>
+        <div class="conatinerItemsAgency" *ngFor="let items of Items">
+            <div class="itemsAgency">
+               <div class="contentAgency">
+                   <h3>{{ items.brand }}</h3>
+                   <p class="openDeta">Opens From {{ items.openfrom }} am to {{ items.closeto }} pm</p>
+                   <div class="dflex_img">
+                       <p><img src="assets/mobile_icon.svg" alt="">{{ items.city }}</p>
+                       <p><img src="assets/location_icon.svg" alt="">{{ items.number }}</p>
+                   </div>
+               </div>
+               <div class="imageAgency">
+                <img [src]="items.image" alt="Car Image">
+               </div>
+           </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

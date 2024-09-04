@@ -1,0 +1,244 @@
+.info_item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.info_item img {
+    width: auto;
+    height: 15px;
+    margin-right: 10px;
+}
+.info_item p {
+    color:#818282;
+    margin: 0;
+    font-size: 16px;
+}
+.info_item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.info_item img {
+    width: auto;
+    height: 25px;
+    margin-right: 10px;
+}
+.info_item p {
+    margin: 0;
+    font-size: 23px;
+    font-weight: bold;
+}
+.bodyPage {
+    background-color:#FFF;
+    margin-top: 10px;
+    border-radius: 20px 20px 0 0;
+    padding: 0 15px;
+    z-index: 1;
+    height: 100%;
+    display: block;
+    position: relative;
+    /* padding-bottom: 75px; */
+}
+.bodyPage.swiperdetails {
+    padding-right: 0;
+    padding-left: 0;
+}
+.btnFillter {
+    margin-top: 20px;
+}
+.btnFillter button {
+    font-size: 19px;
+    font-weight: bold;
+    background-color:  #FFD600;
+    color: #FFF;
+}
+button {
+    min-height: 46px;
+    border-radius: 8px;
+    border: 0px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.item_inform {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.item_inform p {
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+.item_inform .edit_item_inform {
+    display: flex;
+    align-items: center;
+}
+.item_inform .edit_item_inform span {
+    color:#818282;
+    display: block;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.item_inform .edit_item_inform img {
+    width: auto;
+    height: 15px;
+}
+.mainPhoto {
+    width: auto;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+    position: relative;
+    background-color: #e6e6e6;
+}
+.mainPhoto img {
+    width: auto;
+    height: 100px;
+}
+.mainPhoto p {
+    font-size: 20px;
+    margin: 0;
+}
+/* .mainPhoto {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 200px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 15px;
+    background-color: #F5F6FB;
+} */
+.mainPhoto img {
+    width: auto;
+    height: 60px;
+}
+.mainPhoto p {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.edit_item_inform {
+    display: flex;
+    align-items: center;
+}
+.edit_item_inform span {
+    color:#818282;
+    display: block;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.edit_item_inform img {
+    width: auto;
+    height: 15px;
+}
+.fullPage {
+    
+    font-family: 'Tajawal';
+}
+
+.wagon_Inform .info_item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.wagon_Inform .info_item img {
+    width: auto;
+    height: 25px;
+    margin-right: 10px;
+}
+.wagon_Inform .info_item p {
+    margin: 0;
+    font-size: 23px;
+    font-weight: bold;
+}
+.wagon_Inform .item_inform {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.wagon_Inform .item_inform p {
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+.wagon_Inform .item_inform .edit_item_inform {
+    display: flex;
+    align-items: center;
+}
+.wagon_Inform .item_inform .edit_item_inform span {
+    color:#818282;
+    display: block;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.wagon_Inform .item_inform .edit_item_inform img {
+    width: auto;
+    height: 15px;
+}
+.headerPage:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 40px;
+    background: #ffd600;
+    left: 0;
+    bottom: -40px;
+}
+.pt-4, .py-4 {
+    padding-top: 1.5rem !important;
+}
+/* *, *::before, *::after {
+    box-sizing: inherit;
+} */
+/* .wagon_Inform .mainPhoto {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+    position: relative;
+    background-color: #e6e6e6;
+} */
+.wagon_Inform .mainPhoto img {
+    width: auto;
+    height: 100px;
+}
+.wagon_Inform .mainPhoto p {
+    font-size: 20px;
+    margin: 0;
+}
+/* .wagon_Inform .mainPhoto {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+    position: relative;
+    background-color: #e6e6e6;
+} */

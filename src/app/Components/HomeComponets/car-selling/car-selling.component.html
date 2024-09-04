@@ -1,0 +1,21 @@
+<div class="scrollable-container">
+  <div class="itme_Car_selling" *ngFor="let item of items; let i = index" >
+    <div class="content_Car_selling">
+      <h3>{{item.brand}}</h3>
+      <p class="openDeta">Opens From {{item.openfrom}} am to {{item.closeto}} pm</p>
+      <div class="container_tab_Car_selling">
+        <button 
+          [ngClass]="{'active': item.isBuyActive}" (click)="setActiveButton(i, true)">
+          Buy
+        </button>
+        <button 
+          [ngClass]="{'active': !item.isBuyActive}" (click)="setActiveButton(i, false)">
+          Sell
+        </button>
+      </div>
+    </div>
+    <div class="image_Car_selling">
+      <img [src]="item.image" alt="" (click)="goto()">
+    </div>
+  </div>
+</div>

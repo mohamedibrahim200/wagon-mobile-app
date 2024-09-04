@@ -1,0 +1,32 @@
+
+/* @import 'swiper/swiper-bundle.min.css'; */
+@font-face {
+    font-family: 'Tajawal';
+    src: url('assets/Tajawal-Medium.ttf') format('truetype')
+
+}
+body {
+    font-family: 'Tajawal';
+    font-size: 15.5px;    
+    margin: 0px;
+    padding: 0px;
+}
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: #DBDBDB;
+    border-radius: 5px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    box-shadow: 0 6px 7px rgb(0 0 0 / 18%);
+    border-radius: 5px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,97 @@
+.container_tab, 
+.container_tab_Car_selling {
+    padding: 1rem; 
+    max-width: 100%;
+}
+
+.itme_Car_selling {
+    padding: 1rem;
+    margin-bottom: 0.5rem; 
+}
+.bodyPage {
+    background-color: #FFF;
+    margin-top: 10px;
+    border-radius: 20px 20px 0 0;
+    padding: 0 15px;
+    z-index: 1;
+    /* height: 100%; */
+    display: block;
+    position: relative;
+    padding-bottom: 75px;
+}
+.fullPage {
+  
+    font-family: 'Tajawal';
+}
+
+.bodyPage.swiperdetails {
+    padding-right: 0;
+    padding-left: 0;
+}
+.itme_Car_selling .image_Car_selling img {
+    height: 10vw; 
+}
+@media (max-width: 768px) {
+    .container_tab, 
+    .container_tab_Car_selling, 
+    .itme_Car_selling {
+        padding: 0.5rem; 
+    }
+
+    .itme_Car_selling .image_Car_selling img {
+        height: 15vw; 
+    }
+
+    .titlecarSelling h2 {
+        font-size: 1.2rem; 
+    }
+
+    .itme_Car_selling .content_Car_selling h3 {
+        font-size: 1rem; 
+    }
+
+    .itme_Car_selling .content_Car_selling .openDeta {
+        font-size: 0.8rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .itme_Car_selling {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .itme_Car_selling .content_Car_selling {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .itme_Car_selling .image_Car_selling {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .itme_Car_selling .image_Car_selling img {
+        height: 20vw;
+    }
+}
+.container_tab_Car_selling {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.itme_Car_selling {
+    flex: 1 1 calc(50% - 20px); 
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .itme_Car_selling {
+        flex: 1 1 calc(100% - 20px);
+    }
+}
+.itme_Car_selling .image_Car_selling img {
+    width: auto;
+    height: 10vh; 
+}

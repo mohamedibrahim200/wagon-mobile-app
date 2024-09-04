@@ -1,0 +1,81 @@
+<div class="fullPage"> 
+    <div class="bodyPage">
+      <div class="conatinerItemsType">
+        <div *ngIf="item.length > 0 ; else done">
+        <div *ngFor="let items of item" class="ItemsType">
+          <div class="d-flex justify-content-between">
+            <div class="content_Type">
+              <div class="head_Type">
+                <h3>{{ items.brand }}</h3>
+                <p>{{ items.model }}</p>
+              </div>
+              <div class="data_Type">
+                <div class="data_Type_item">
+                  <div class="typeCont">
+                    <div class="iconType">
+                      <img src="assets/calendar.svg" alt="">
+                    </div>
+                    <div class="icondata">
+                      <p>year</p>
+                      <p>{{ items.year }}</p>
+                    </div>
+                  </div>
+                  <div class="typeCont">
+                    <div class="iconType">
+                      <img src="assets/palette.svg" alt="">
+                    </div>
+                    <div class="icondata">
+                      <p>Color : </p>
+                      <p>{{ items.color }}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="data_Type_item">
+                  <div class="typeCont">
+                    <div class="iconType">
+                      <img src="assets/speedometer.svg" alt="">
+                    </div>
+                    <div class="icondata">
+                      <p>Milleage : </p>
+                      <p>{{ items.mileage }}</p>
+                    </div>
+                  </div>
+                  <div class="typeCont">
+                    <div class="iconType">
+                      <img src="assets/$.svg" alt="">
+                    </div>
+                    <div class="icondata">
+                      <p>Price : </p>
+                      <p>{{ items.price }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="image_Type">
+              <img [src]="items.image" alt="Car Image">
+            </div>
+          </div>
+          <div class="footer_Type">
+            <button class="btnType"> 
+              <img src="assets/heart.svg" alt=""> 
+              Add to Favorite
+            </button>
+            <button class="btnType"> 
+              <img src="assets/compare.svg" alt=""> 
+              Add to Compare
+            </button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
+  <ng-template #done>
+    <div style="align-items: center;">
+      <h2 style="text-align: center;">Your Filter is empty </h2>
+      <img style="width: 250px; height: 250px; margin: 0 auto 100px auto;" src="/assets/empty_ADS.svg" alt="">
+      <button (click)="navigateToHome()" class="butt">Back To Home</button>
+    </div>
+  </ng-template>

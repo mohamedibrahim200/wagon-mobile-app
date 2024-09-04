@@ -1,0 +1,92 @@
+<app-header-compere></app-header-compere>
+
+<div class="bodyPage">
+    <div class="containerItemsType"> 
+        <div *ngIf="item.length > 0; else done">
+            <div class="scrollableItems">
+                <div *ngFor="let ite of item" class="ItemsType">
+                    <div class="d-flex justify-content-between">
+                        <div class="content_Type">
+                            <div class="head_Type">
+                                <h3>{{ ite.brand }}</h3>
+                                <p>{{ ite.model }}</p>
+                            </div>
+                            <div class="data_Type">
+                                <div class="data_Type_item">
+                                    <div class="typeCont">
+                                        <div class="iconType">
+                                            <img src="assets/calendar.svg" alt="">
+                                        </div>
+                                        <div class="icondata">
+                                            <p>Year</p>
+                                            <p>{{ ite.year }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="typeCont">
+                                        <div class="iconType">
+                                            <img src="assets/palette.svg" alt="">
+                                        </div>
+                                        <div class="icondata">
+                                            <p>Color:</p>
+                                            <p>{{ ite.color }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="data_Type_item">
+                                    <div class="typeCont">
+                                        <div class="iconType">
+                                            <img src="assets/speedometer.svg" alt="">
+                                        </div>
+                                        <div class="icondata">
+                                            <p>Mileage:</p>
+                                            <p>{{ ite.mileage }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="typeCont">
+                                        <div class="iconType">
+                                            <img src="assets/$.svg" alt="">
+                                        </div>
+                                        <div class="icondata">
+                                            <p>Price:</p>
+                                            <p>{{ ite.price }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image_Type">
+                            <img [src]="ite.image" alt="Car Image">
+                        </div>
+                    </div>
+                    <div class="footer_Type">
+                        <button class="btnType">
+                            <img src="assets/heart.svg" alt="">
+                            Add to Favorite
+                        </button>
+                        <button class="btnType">
+                            <img src="assets/compare.svg" alt="">
+                            Add to Compare
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="button_group" (click)="navigateTo()">
+                <button class="btnCompare">
+                    Compare
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<app-footer></app-footer>
+
+
+<ng-template #done>
+    <div style="align-items: center;">
+      <h2 style="text-align: center;">Your Favourites is empty </h2>
+      <img  src="/assets/empty_ADS.svg" alt="">
+      <button (click)="navigateToHome()" class="butt">Home</button>
+    </div>
+  </ng-template>

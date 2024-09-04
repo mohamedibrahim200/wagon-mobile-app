@@ -1,0 +1,57 @@
+.filter {
+    width: auto;
+    height: 40px;
+    margin-right: 15px;
+}
+.filterBtn {
+    background-color:  #2F2F2F;
+    display: flex;
+    margin: 20px 0;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.fullPage {
+    
+    font-family: 'Tajawal';
+}
+
+.filterBtn .img_par {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filterBtn .img_par .filter {
+    width: auto;
+    height: 40px;
+    margin-right: 15px;
+}
+.filterBtn .img_par p {
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+}
+.filterBtn .img_par~img {
+    width: auto;
+    height: 30px;
+}
+.img_par {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img_par .filter {
+    width: auto;
+    height: 40px;
+    margin-right: 15px;
+}
+.img_par p {
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+}
+.img_par~img {
+    width: auto;
+    height: 30px;
+}

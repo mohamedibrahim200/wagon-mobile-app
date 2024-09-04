@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67.374" height="65.294" viewBox="0 0 67.374 65.294">
+  <defs>
+    <filter id="heart_1_" x="0" y="0" width="67.374" height="65.294" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="favourites_Par" transform="translate(1222.687 -4705.353)">
+    <rect id="Rectangle_1656" data-name="Rectangle 1656" width="28" height="28" transform="translate(-1203 4721)" fill="none"/>
+    <g transform="matrix(1, 0, 0, 1, -1222.69, 4705.35)" filter="url(#heart_1_)">
+      <path id="heart_1_2" data-name="heart (1)" d="M15.852,22.543a6.452,6.452,0,0,0-2.963.711,6.574,6.574,0,0,0-1.7,1.254,6.574,6.574,0,0,0-1.7-1.254,6.452,6.452,0,0,0-2.963-.711A6.53,6.53,0,0,0,0,29.066c0,2.547,1.345,5.253,4,8.042a38.666,38.666,0,0,0,6.813,5.487l.376.243.376-.243a38.664,38.664,0,0,0,6.813-5.487c2.653-2.789,4-5.494,4-8.042A6.53,6.53,0,0,0,15.852,22.543Z" transform="translate(22.5 -3.04)" fill="#ffd600"/>
+    </g>
+  </g>
+</svg>

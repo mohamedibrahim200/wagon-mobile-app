@@ -1,0 +1,79 @@
+<div class="fullPage">
+    <div class="headerPage">
+        <div class="containerMenu">
+            <button (click)="toggleMenu()" style="background-color: #FFD600; border: #FFD600;">
+                <div class="s"></div>
+                <div class="v"></div>
+                <div class="t"></div>
+            </button>
+            <div class="menubtn btn1" data-menu="1" *ngIf="isMenuOpen" (click)="toggleMenu()">
+                <div class="icon-left"></div>
+                <div class="icon-right"></div>
+            </div>
+            <div class="menu" [class.open]="isMenuOpen">
+                <div class="containerMenu_item">
+                    <div class="menuHeader">
+                        <div class="profile_Item">
+                            <img src="assets/profile_menu.svg" alt="">
+                            <p (click)="to('/YourProfile')" >Taha kimo</p>
+                        </div>
+                        <div class="close-btn" style="float: right; margin-top: -20px; margin-right: 10px;">
+                            <button (click)="toggleMenu()" class="close">
+                                <span style="font-size: 25px; color: #ffffff; font-weight: 100;">X</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="menubody">
+                        <ul class="body_Item">
+                            <li class="menu_item">
+                                <img src="assets/home_menu.svg" alt="">
+                                <p (click)="to('/Sell')">Home</p>
+                            </li>
+                            <li class="menu_item">
+                                <img src="assets/heart_menu.svg" alt="">
+                                <p (click)="to('/Favourites')" >Favourites</p>
+                            </li>
+                            <li class="menu_item">
+                                <img src="assets/compare_menu.svg" alt="">
+                                <p (click)="to('/Compere')">Compare</p>
+                            </li>
+                            <li class="menu_item">
+                                <img src="assets/agency_menu.svg" alt="">
+                                <p (click)="to('/Listagency')">Agency</p>
+                            </li>
+                            <li class="menu_item">
+                                <img src="assets/dealers_menu.svg" alt="">
+                                <p (click)="to('/Listdelars')" >Dealers</p>
+                            </li>
+                            <li class="menu_item">
+                                <img src="assets/language_menu.svg" alt="">
+                                <p (click)="to('/Language')">Language</p>
+                            </li>
+                            <li class="menu_item">
+                                <img src="assets/profile_menu.svg" alt="">
+                                <p (click)="to('/YourProfile')">Profile</p>
+                            </li>
+                            <li class="menu_item">
+                                <img src="assets/logout_menu.svg" alt="">
+                                <p>Logout</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="menufooter">
+                        <div class="logOut_item">
+                            <img src="assets/logout_menu.svg" alt="">
+                            <p>Logout</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="titleHeader">
+            <h3>Favourites</h3>
+            <!-- <span>Let's find a vehicle for you</span> -->
+        </div>
+        <div class="search_back" (click)="to('/Sell')">
+            <img src="assets/back.svg" alt="">
+        </div>
+    </div>
+</div>

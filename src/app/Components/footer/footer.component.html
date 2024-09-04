@@ -1,0 +1,28 @@
+<div class="fullPage">
+  <div class="footerPage">
+    <div class="containerFooter">
+      <ul class="containerItem_menu">
+        <li class="item_Menu" [ngClass]="{'active': isActive('home')}" (click)="setActive('home', '/Sell')">
+          <img src="assets/home.svg" alt="">
+          <p>Home</p>
+        </li>
+        <li class="item_Menu" [ngClass]="{'active': isActive('favourites')}" (click)="setActive('favourites', '/Favourites')">
+          <img src="assets/heart_menu.svg" alt="">
+          <p>Favourites</p>
+        </li>
+        <li class="item_Menu" [ngClass]="{'active': isActive('compare')}" (click)="setActive('compare', '/Compere')">
+          <img src="assets/compare.svg" alt="">
+          <p>Compare</p>
+        </li>
+        <li class="item_Menu" [ngClass]="{'active': isActive('agency')}" (click)="setActive('agency', '/Listagency')">
+          <img src="assets/store.svg" alt="">
+          <p>Agency</p>
+        </li>
+        <li class="item_Menu" [ngClass]="{'active': isActive('delars')}" (click)="setActive('delars', '/Listdelars')">
+          <img src="assets/store.svg" alt="">
+          <p>Dealers</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
